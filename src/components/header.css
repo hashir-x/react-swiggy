@@ -1,0 +1,38 @@
+
+.swiggy-logo {
+    transition: all 0.3s ease;
+}
+
+.swiggy-logo:hover {
+    transform: scale(1.1);
+}
+
+.place {
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.swiggy-location:hover .place{
+    color: rgb(231, 136, 56);
+}
+
+.swiggy-location:hover .location {
+    opacity: 0.7;
+}
+
+.nav_link {
+    transition: all 0.3s ease;
+}
+
+.nav_link:hover .nav_icon {
+    color: rgb(231, 136, 56);
+}
+
+.nav_link:hover .nav_text {
+    color: rgb(231, 136, 56);
+}
+
+.nav_text {
+    transition: all 0.1s ease;
+}
+

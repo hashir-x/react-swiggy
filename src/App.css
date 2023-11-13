@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+.bestOfferImageContainer::-webkit-scrollbar {
+    display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bestOfferImageContainer>img {
+    margin: 0rem 0.6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.onYourMind::-webkit-scrollbar {
+    display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.onYourMind>img, .hotel {
+    margin: 0rem 0.7rem;
 }
 
-.App-link {
-  color: #61dafb;
+.hotel{
+    transition: 0.2s all ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hotel:hover {
+    transform: scale(0.95);
 }
